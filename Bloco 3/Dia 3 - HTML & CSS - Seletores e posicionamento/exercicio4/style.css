@@ -41,10 +41,14 @@ div:nth-child(6){
     font-size: 25px;
 }
 div:nth-child(7){
-    font-family: 'Georgia';
+    font-family: 'Fantasy';
     font-size: 30px;
 }
 
 div:nth-child(odd){
     font-style: italic;
+}
+
+div:nth-child(7) > h3{
+    color: blue;
 }
