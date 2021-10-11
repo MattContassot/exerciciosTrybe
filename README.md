@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório tem todos os tópicos que estou estudando e projetos nos quais irei trabalhar no futuro. Sinta-se à vontade para [entrar em contato] (https://www.linkedin.com/in/matheuscontassot/) comigo :raising_hand_man:
+Este repositório tem todos os tópicos que estou estudando e projetos nos quais irei trabalhar no futuro. Sinta-se à vontade para [entrar em contato](https://www.linkedin.com/in/matheuscontassot/) comigo :raising_hand_man:
 
 #### Sobre a Trybe :books:
 A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso em tecnologia, o programa conta com mais de 1500 horas de aulas on-line e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
@@ -20,7 +20,7 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 - [x] 2.2 Git & GitHub: Entendendo os comandos
 - [x] 2.3 Internet: Entendendo como ela funciona
 
-**Bloco 3 Introdução à HTML e CSS**
+**Bloco 3 Introdução à HTML e CSS**Trybe
 - [x] 3.1 Introdução
 - [x] 3.1 Estruturas de página
 - [x] 3.2 Primeiros passos em CSS
