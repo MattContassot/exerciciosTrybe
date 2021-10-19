@@ -33,11 +33,11 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 - [x] 4.1 Primeiros passos
 - [x] 4.2 Array e loop For
 - [x] 4.3 Lógica de Programação e Algoritmos
-- [ ] 4.4 Objetos e funções
-- [ ] 4.5 Projeto - Playground Functions
+- [x] 4.4 Objetos e funções
+- [x] 4.5 Projeto - Playground Functions (linkar projeto)
 
 **Bloco 5 JavaScript: DOM, Eventos e Web Storage**
-- [ ] 5.1 DOM e Seletores
+- [x] 5.1 DOM e Seletores
 - [ ] 5.2 Trabalhando com elementos
 - [ ] 5.3 Eventos
 - [ ] 5.4 Web Storage
