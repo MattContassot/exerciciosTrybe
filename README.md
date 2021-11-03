@@ -38,21 +38,21 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 
 **Bloco 5 JavaScript: DOM, Eventos e Web Storage**
 - [x] 5.1 DOM e Seletores
-- [ ] 5.2 Trabalhando com elementos
-- [ ] 5.3 Eventos
-- [ ] 5.4 Web Storage
-- [ ] 5.5 Fundamentos - Projetos
-- [ ] 5.5 Projeto - Arte com Pixels
-- [ ] 5.5 Projeto - Lista de Tarefas
+- [x] 5.2 Trabalhando com elementos
+- [x] 5.3 Eventos
+- [x] 5.4 Web Storage
+- [x] 5.5 Fundamentos - Projetos
+- [x] 5.5 Projeto - Arte com Pixels
+- [x] 5.5 Projeto - Lista de Tarefas
 - [ ] 5.5 Projeto - Meme Generator
 - [ ] 5.5 Projeto - Adivinhe a Cor
 - [ ] 5.5 Projeto - Carta Misteriosa
 
 **Bloco 6 HTML e CSS: Forms, Flexbox e Responsivo**
-- [ ] 6.1 Forms
-- [ ] 6.2 Bibliotecas JavaScript e Frameworks CSS
-- [ ] 6.3 Introdução à CSS Flexbox
-- [ ] 6.3 CSS Flexbox part I
+- [x] 6.1 Forms
+- [x] 6.2 Bibliotecas JavaScript e Frameworks CSS
+- [x] 6.3 Introdução à CSS Flexbox
+- [x] 6.3 CSS Flexbox part I
 - [ ] 6.4 CSS Flexbox part II
 - [ ] 6.5 CSS Responsive: Mobile First
 - [ ] 6.6 Projeto - Trybewarts
