@@ -53,13 +53,13 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 - [x] 6.2 Bibliotecas JavaScript e Frameworks CSS
 - [x] 6.3 Introdução à CSS Flexbox
 - [x] 6.3 CSS Flexbox part I
-- [ ] 6.4 CSS Flexbox part II
-- [ ] 6.5 CSS Responsive: Mobile First
-- [ ] 6.6 Projeto - Trybewarts
+- [x] 6.4 CSS Flexbox part II
+- [x] 6.5 CSS Responsive: Mobile First
+- [x] 6.6 Projeto - Trybewarts
 
 **Bloco 7 Introdução à JavaScript ES6 e Testes Unitários**
-- [ ] 7.1 ES6: let, const, arrow functions e template literals
-- [ ] 7.2 ES6: Objects
+- [x] 7.1 ES6: let, const, arrow functions e template literals
+- [x] 7.2 ES6: Objects
 - [ ] 7.3 Primeiros passos em Jest
 - [ ] 7.4 Projeto - JavaScript Testes Unitários
 
