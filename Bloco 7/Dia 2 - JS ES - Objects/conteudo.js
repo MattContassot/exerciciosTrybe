@@ -10,7 +10,6 @@ customer[newKey] = lastName;
 newKey = "fullName";
 const fullName = `${customer.firstName} ${customer.lastName}`;
 customer[newKey] = fullName;
-// console.log(customer);
 
 function addGenre(cliente, campoGenero, genero) {
   cliente[campoGenero] = genero;
@@ -18,6 +17,9 @@ function addGenre(cliente, campoGenero, genero) {
 }
 
 // console.log(addGenre(customer, 'genre', 'Masculino'));
+
+customer['naturalidade'] = 'Porto Alegre';
+console.log(customer);
 
 const student1 = {
   Html: 'Muito Bom',
@@ -77,8 +79,8 @@ const países = {
 const pairKeyValue = Object.entries(países);
 // console.log(pairKeyValue);
 
-for(index in pairKeyValue) {
-  console.log('--------');
-  console.log('País:', pairKeyValue[index][0]);
-  console.log('Capital:', pairKeyValue[index][1]);
-};
+// for(index in pairKeyValue) {
+//   console.log('--------');
+//   console.log('País:', pairKeyValue[index][0]);
+//   console.log('Capital:', pairKeyValue[index][1]);
+// };
