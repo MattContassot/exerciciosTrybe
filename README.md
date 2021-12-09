@@ -72,17 +72,17 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 - [x] 8.6 Projeto - Zoo Functions 
 
 **Bloco 9 JavaScript e Testes Assíncronos**
-- [ ] 9.1 JavaScript Assíncrono e Callbacks
-- [ ] 9.2 JavaScript Assíncrono - Fetch API e async/await
-- [ ] 9.3 Jest - Testes Assíncronos
-- [ ] 9.4 Projeto - Carrinho de Compras
+- [x] 9.1 JavaScript Assíncrono e Callbacks
+- [x] 9.2 JavaScript Assíncrono - Fetch API e async/await
+- [x] 9.3 Jest - Testes Assíncronos
+- [x] 9.4 Projeto - Carrinho de Compras
 
 ## Desenvolvimento Front-End
 
 **Bloco 10 Introdução à React**
-- [ ] 10.1 Introdução: Front-End
-- [ ] 10.1 Introdução: React
-- [ ] 10.1 ‘Hello World!’ no React
+- [x] 10.1 Introdução: Front-End
+- [x] 10.1 Introdução: React
+- [x] 10.1 ‘Hello World!’ no React
 - [ ] 10.2 Componentes React
 - [ ] 10.3 Projeto -  Sistema Solar
 
