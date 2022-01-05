@@ -83,11 +83,11 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 - [x] 10.1 Introdução: Front-End
 - [x] 10.1 Introdução: React
 - [x] 10.1 ‘Hello World!’ no React
-- [ ] 10.2 Componentes React
-- [ ] 10.3 Projeto -  Sistema Solar
+- [x] 10.2 Componentes React
+- [x] 10.3 Projeto -  Sistema Solar
 
 **Bloco 11  Componentes com Estado, Eventos e Formulários com React**
-- [ ] 11.1 Componentes com estado e eventos
+- [x] 11.1 Componentes com estado e eventos
 - [ ] 11.2 Formulários no React
 - [ ] 11.3 Projeto - Tryunfo
 
