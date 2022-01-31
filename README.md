@@ -88,23 +88,23 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 
 **Bloco 11  Componentes com Estado, Eventos e Formulários com React**
 - [x] 11.1 Componentes com estado e eventos
-- [ ] 11.2 Formulários no React
-- [ ] 11.3 Projeto - Tryunfo
+- [x] 11.2 Formulários no React
+- [x] 11.3 Projeto - Tryunfo
 
 **Bloco 12 Ciclo de Vida de Componentes e React Router**
-- [ ] 12.1 Ciclo de vida de componentes
-- [ ] 12.2 React Router
-- [ ] 12.3 Projeto - TrybeTunes
+- [x] 12.1 Ciclo de vida de componentes
+- [x] 12.2 React Router
+- [x] 12.3 Projeto - TrybeTunes
 
 **Bloco 13 Metodologias Ágeis**
-- [ ] 13.1 Metodologias Ágeis
-- [ ] 13.2 Projeto - - Front-end Online Store
+- [x] 13.1 Metodologias Ágeis
+- [x] 13.2 Projeto - - Front-end Online Store
 
 **Bloco 14 Testes automatizados com React Testing Library**
-- [ ] 14.1 RTL - Primeiros passos
-- [ ] 14.2 RTL - Mocks e Inputs
-- [ ] 14.3 RTL - Testando React Router
-- [ ] 14.4 Projeto - Testes em React
+- [x] 14.1 RTL - Primeiros passos
+- [x] 14.2 RTL - Mocks e Inputs
+- [x] 14.3 RTL - Testando React Router
+- [x] 14.4 Projeto - Testes em React
 
 **Bloco 15 Gereniamento de estado com Redux**
 - [ ] 15.1 Introdução ao Redux: O estado global da aplicação
