@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Checklist do react-redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_Antes de começar_
 
-## Available Scripts
+- [ ] pensar como será o _formato_ do seu estado global
+- [ ] pensar quais actions serão necessárias na sua aplicação
 
-In the project directory, you can run:
+_Instalação_
 
-### `npm start`
+- [ ] npx create-react-app my-app-redux;
+- [ ] npm install --save redux react-redux redux-devtools-extension;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+_Criar dentro do diretório src:_
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [ ] diretório `store`
 
-### `npm test`
+**Criar dentro do diretório `store`**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ ] arquivo `index.js`
+- [ ] diretório `actions`
+- [ ] diretório `reducers`
 
-### `npm run build`
+_Criar dentro do diretório `actions`:_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ ] arquivo `index.js`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+_Criar dentro do diretório `reducers`:_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] arquivo `index.js`.
 
-### `npm run eject`
+_Criar dentro do arquivo `reducers/index.js`:_
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [ ] estado inicial
+- [ ] criar função reducer com `switch` retornando apenas a opção `default`
+- [ ] criar `rootReducer` usando o `combineReducers`
+- [ ] exportar `rootReducer`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+exemplo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```js
+const INITIAL_STATE = {};
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+const exampleReducer = (state = INITIAL_STATE, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
 
-## Learn More
+const rootReducer = combineReducers({ exampleReducer });
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_No arquivo store/index.js:_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] importar `rootReducer` e usá-lo na criação da `store`
+- [ ] configurar o [Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension#13-use-redux-devtools-extension-package-from-npm)
+- [ ] exportar a `store`
 
-### Code Splitting
+_No arquivo src/index.js:_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [ ] importar a `store`
+- [ ] definir o Provider, `<Provider store={ store }>`, para fornecer os estados a todos os componentes encapsulados em `<App />`.
 
-### Analyzing the Bundle Size
+_Na pasta actions:_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [ ] criar e exportar os actionTypes, por exemplo: `const ADD_TO_CART = 'ADD_TO_CART';`
+- [ ] criar e export os actions creators necessários
 
-### Making a Progressive Web App
+_Nos reducers:_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [ ] criar os casos para cada action criada, retornando o devido estado atualizado
 
-### Advanced Configuration
+_Nos componentes que irão ler o estado:_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [ ] criar a função `mapStateToProps`
+- [ ] exportar usando o `connect`
 
-### Deployment
+_Nos componentes que irão modificar o estado:_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [ ] criar a função `mapDispatchToProps`
+- [ ] exportar usando o `connect`
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```js
+export default connect(mapStateToProps, mapDispatchToProps)(Component);
+```
