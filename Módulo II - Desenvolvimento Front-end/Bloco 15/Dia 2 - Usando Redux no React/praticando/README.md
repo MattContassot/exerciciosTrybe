@@ -27,27 +27,41 @@ _Criar dentro do diretório `actions`:_
 _Criar dentro do diretório `reducers`:_
 
 - [ ] arquivo `index.js`.
+- [ ] arquivo `nomeDoReducer.js`.
 
-_Criar dentro do arquivo `reducers/index.js`:_
+_Criar dentro do arquivo `reducers/nomeDoReducer.js`:_
 
 - [ ] estado inicial
 - [ ] criar função reducer com `switch` retornando apenas a opção `default`
+- [ ] exportar `nomeDoReducer`
+
+exemplo
+```js
+const INITIAL_STATE = [];
+
+const redditReducer = (state = INITIAL_STATE, actions) => {
+  switch (actions.type) {
+    default:
+      return state;
+  }
+}
+
+export default redditReducer;
+```
+
+_Criar dentro do arquivo `reducers/index.js`:_
+
 - [ ] criar `rootReducer` usando o `combineReducers`
 - [ ] exportar `rootReducer`
 
 exemplo:
-
 ```js
-const INITIAL_STATE = {};
+import { combineReducers } from 'redux';
+import redditReducer from "./redditReducer";
 
-const exampleReducer = (state = INITIAL_STATE, action) => {
-  switch (action.type) {
-    default:
-      return state;
-  }
-};
+const rootReducer = combineReducers({ redditReducer });
 
-const rootReducer = combineReducers({ exampleReducer });
+export default rootReducer;
 ```
 
 _No arquivo store/index.js:_
@@ -55,6 +69,20 @@ _No arquivo store/index.js:_
 - [ ] importar `rootReducer` e usá-lo na criação da `store`
 - [ ] configurar o [Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension#13-use-redux-devtools-extension-package-from-npm)
 - [ ] exportar a `store`
+
+exemplo:
+```js
+import { applyMiddleware, createStore } from "redux";
+import { composeWithDevTools } from "redux-devtools-extension";
+import thunk from "redux-thunk";
+import rootReducer from "./reducers";
+
+const store = createStore(rootReducer, composeWithDevTools(
+  applyMiddleware(thunk),
+));
+
+export default store;
+```
 
 _No arquivo src/index.js:_
 
