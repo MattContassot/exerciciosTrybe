@@ -119,85 +119,85 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 
 **Bloco 17 Context API e React Hooks**
 - [x] 17.1 Context API do React
-- [ ] 17.2 React Hooks - useState e useContext
-- [ ] 17.3 React Hooks - useEffect e Hooks customizados
-- [ ] 17.4 Projeto - StarWars Datatable com Context API e Hooks
+- [x] 17.2 React Hooks - useState e useContext
+- [x] 17.3 React Hooks - useEffect e Hooks customizados
+- [x] 17.4 Projeto - StarWars Datatable com Context API e Hooks
 
 **Bloco 18 Projeto App de Receitas**
-- [ ] 18.1 Projeto - App de Receitas
+- [x] 18.1 Projeto - App de Receitas
 
 
 ## Desenvolvimento Back-End
 
 **Bloco 19 Introdução à SQL**
-- [ ] 19.1 Introdução - Back-End
-- [ ] 19.1 Introdução - Bancos de dados relacionais
-- [ ] 19.1 Banco de dados SQL
-- [ ] 19.2 Encontrando dados em um banco de dados
-- [ ] 19.3 Filtrando dados de forma específica
-- [ ] 19.4 Manipulando tabelas
-- [ ] 19.5 Projeto - All For One
+- [x] 19.1 Introdução - Back-End
+- [x] 19.1 Introdução - Bancos de dados relacionais
+- [x] 19.1 Banco de dados SQL
+- [x] 19.2 Encontrando dados em um banco de dados
+- [x] 19.3 Filtrando dados de forma específica
+- [x] 19.4 Manipulando tabelas
+- [x] 19.5 Projeto - All For One
 
 **Bloco 20 Funções SQL, Joins e Subqueries**
-- [ ] 20.1 Funções mais usadas no SQL
-- [ ] 20.2 Descomplicando JOINs, UNIONs e Subqueries
-- [ ] 20.3 Stored Routines & Stored Functions
-- [ ] 20.4 Projeto - Vocabulary Booster
+- [x] 20.1 Funções mais usadas no SQL
+- [x] 20.2 Descomplicando JOINs, UNIONs e Subqueries
+- [x] 20.3 Stored Routines & Stored Functions
+- [x] 20.4 Projeto - Vocabulary Booster
 
 **Bloco 21 Normalization e Modeling Database**
-- [ ] 21.1 Transformando ideias em um modelo de banco de dados - Parte I
-- [ ] 21.2 Normalização, Formas Normais e Dumps
-- [ ] 21.3 Transformando ideias em um modelo de banco de dados - Parte II
-- [ ] 21.4 Projeto - One for All
+- [x] 21.1 Transformando ideias em um modelo de banco de dados - Parte I
+- [x] 21.2 Normalização, Formas Normais e Dumps
+- [x] 21.3 Transformando ideias em um modelo de banco de dados - Parte II
+- [x] 21.4 Projeto - One for All
 
 **Bloco 22 Introdução to MongoDB**
-- [ ] 22.1 Introdução - NoSQL
-- [ ] 22.1 MongoDB - Introdução
-- [ ] 22.2 Filter Operators
-- [ ] 22.3 Projeto - Data Flights
+- [x] 22.1 Introdução - NoSQL
+- [x] 22.1 MongoDB - Introdução
+- [x] 22.2 Filter Operators
+- [x] 22.3 Projeto - Data Flights
 
 **Bloco 23 MongoDB: Updates Simples e Complexos**
-- [ ] 23.1 Updates Simples
-- [ ] 23.2 Updates Complexos: Arrays - Parte I
-- [ ] 23.3 Updates Complexos: Arrays - Parte II
-- [ ] 23.4 Projeto - Commerce
+- [x] 23.1 Updates Simples
+- [x] 23.2 Updates Complexos: Arrays - Parte I
+- [x] 23.3 Updates Complexos: Arrays - Parte II
+- [x] 23.4 Projeto - Commerce
 
 **Bloco 24 MongoDB: Aggregation Framework**
-- [ ] 24.1 Aggregation Framework - Parte I
-- [ ] 24.2 Aggregation Framework - Parte II
-- [ ] 24.3 Projeto - Aggregations
+- [x] 24.1 Aggregation Framework - Parte I
+- [x] 24.2 Aggregation Framework - Parte II
+- [x] 24.3 Projeto - Aggregations
 
 **Bloco 25 Introdução ao Desenvolvimento Web com NodeJS**
-- [ ] 25.1 Intro - NodeJS
-- [ ] 25.1 Node.js - Introdução
-- [ ] 25.2 Node.js - Fluxo Assíncrono
-- [ ] 25.3 Testes com NodeJS
-- [ ] 25.4 Express: HTTP com Node.js
-- [ ] 25.5 Express: Middlewares
-- [ ] 25.6 Projeto - Talker Manager
+- [x] 25.1 Intro - NodeJS
+- [x] 25.1 Node.js - Introdução
+- [x] 25.2 Node.js - Fluxo Assíncrono
+- [x] 25.3 Testes com NodeJS
+- [x] 25.4 Express: HTTP com Node.js
+- [x] 25.5 Express: Middlewares
+- [x] 25.6 Projeto - Talker Manager
 
 **Bloco 26 NodeJS: Camada de Serviço e Arquitetura Rest e Restful**
-- [ ] 26.1 Introdução - Arquitetura de Software
-- [ ] 26.1 Arquitetura de Software - Camada de Model
-- [ ] 26.2 Arquitetura de Software - Camada de Controller e Service
-- [ ] 26.3 Arquitetura Web - Rest e Restful
-- [ ] 26.4 Arquitetura de Software - Testando as Camadas
-- [ ] 26.5 Projeto - Store Manager
+- [x] 26.1 Introdução - Arquitetura de Software
+- [x] 26.1 Arquitetura de Software - Camada de Model
+- [x] 26.2 Arquitetura de Software - Camada de Controller e Service
+- [x] 26.3 Arquitetura Web - Rest e Restful
+- [x] 26.4 Arquitetura de Software - Testando as Camadas
+- [x] 26.5 Projeto - Store Manager
 
 **Bloco 27 Autenticação e Upload de Arquivos**
-- [ ] 27.1 NodeJS - JWT (JSON Web Token)
-- [ ] 27.2 NodeJS - Upload de arquivos com 'multer'
-- [ ] 27.3 NodeJS - Testando APIs com Testes de Integração
-- [ ] 27.4 Projeto - Cookmaster
+- [x] 27.1 NodeJS - JWT (JSON Web Token)
+- [x] 27.2 NodeJS - Upload de arquivos com 'multer'
+- [x] 27.3 NodeJS - Testando APIs com Testes de Integração
+- [x] 27.4 Projeto - Cookmaster
 
 **Bloco 28 Deployment**
-- [ ] 28.1 Introdução - Deploy
-- [ ] 28.1 Infraestrutura - Deploy com Heroku
-- [ ] 28.2 Deploy - Gerenciadores de Processos
-- [ ] 28.3 Projeto - Stranger Things
+- [x] 28.1 Introdução - Deploy
+- [x] 28.1 Infraestrutura - Deploy com Heroku
+- [x] 28.2 Deploy - Gerenciadores de Processos
+- [x] 28.3 Projeto - Stranger Things
 
 **Bloco 29 Arquitetura: SOLID e ORM**
-- [ ] 29.1 Arquitetura: Princípios SOLID
+- [x] 29.1 Arquitetura: Princípios SOLID
 - [ ] 29.2 ORM - Interface da aplicação com o banco de dados
 - [ ] 29.3 ORM - Associations
 - [ ] 29.4 Projeto - API de Blogs

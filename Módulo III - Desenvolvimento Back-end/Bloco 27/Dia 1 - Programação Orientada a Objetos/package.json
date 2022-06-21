@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "npx tsc -t es2016 televisionClassPrivate.ts && node televisionClassPrivate.js"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
